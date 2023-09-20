@@ -1,26 +1,27 @@
-import CartWidget from './CartWidget'
-import React from 'react'
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 
 
 const NavBar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-success">
+            <nav class="navbar navbar-expand-lg bg-success sticky-top mb-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Ecommerce</a>
+                    <Link className="navbar-brand" to={"/"}>Ecommerce</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <NavLink className="nav-link" aria-current="page" to={"/category/recientes"}>Recientes</NavLink>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Nuestros libros</a>
+                            <NavLink className="nav-link" to={"/category/variedad"}>Variedad</NavLink>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contactanos</a>
+                            <NavLink className="nav-link" to={"/category/clasicos"}>Clasicos</NavLink>
                             </li>
                         </ul>
                     </div>

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLF0wfps1b8q9p9izH6kpBnNhtRpYN8JjcUSBN7iCm36A60iP2Jo57gynOIyLnxxEmTmE&usqp=CAU",
+        "titulo": "Harry Potter y la camara secreta",
+        "autor": "J.K.Rowling",
+        "precio": 3900,
+        "stock" : 10,
+        "categoria" : "clasicos"
+    },
+    {
+        "id": 2,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/71Y0WhA-SNS._AC_UL900_SR615,900_.jpg",
+        "titulo": "Angeles Caidos",
+        "autor": "Susan Ee",
+        "precio": 2800,
+        "stock" : 10,
+        "categoria" : "recientes"
+    },
+    {
+        "id": 3,
+        "img": "https://i.pinimg.com/originals/a3/1c/5c/a31c5ca707c2793cd338f3200707db0e.jpg",
+        "titulo": "Candido",
+        "autor": "Roberto Dubuc",
+        "precio": 5000,
+        "stock" : 10,
+        "categoria" : "recientes"
+    },
+    {
+        "id": 4,
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/f7/9f/f79f18104d9087660bf88ad4cb1c81df.jpg",
+        "titulo": "El Instituto",
+        "autor": "Stephen King",
+        "precio": 4300,
+        "stock" : 10,
+        "categoria" : "variedad"
+    },
+    {
+        "id": 5,
+        "img": "https://www.elejandria.com/covers/Frankenstein-Mary_Shelley-md.png",
+        "titulo": "Frankenstein",
+        "autor": "Mary Shelley",
+        "precio": 3400,
+        "stock" : 10,
+        "categoria" : "recientes"
+    },
+    {
+        "id": 6,
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/ab/fa/abfa6514128a57fafea42b0b0ab995de.jpg",
+        "titulo": "Entre Dos Mundos",
+        "autor": "Gennifer Albin",
+        "precio": 4700,
+        "stock" : 10,
+        "categoria" : "variedad"
+    },
+    {
+        "id": 7,
+        "img": "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/35e74141-3cb3-48fd-8a77-8894e9d47db5/d_295_510/portada_el-senor-de-los-anillos-n-0103-la-comunidad-del-anillo-ne_j-r-r-tolkien_202203111219.webp",
+        "titulo": "El Señor de los Anillos",
+        "autor": "J.R.R.Tolkien",
+        "precio": 5200,
+        "stock" : 10,
+        "categoria" : "clasicos"
+    },
+    {
+        "id": 8,
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/dc/fd/dcfdb04353bbe35e0f7b59dc41f52d12.jpg",
+        "titulo": "Bruja del Mar",
+        "autor": "Sara Henning",
+        "precio": 3900,
+        "stock" : 10,
+        "categoria" : "variedad"
+    }
+]
