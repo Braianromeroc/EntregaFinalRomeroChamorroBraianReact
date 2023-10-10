@@ -28,7 +28,7 @@ const NavBar = () => {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><CartWidget/></a>
+                            <Link className="justify-content-end  align-items-center" to={"/cart"}><CartWidget/></Link>
                             </li>
                         </ul>
                     </div>
