@@ -33,6 +33,7 @@ export const Checkout = () => {
             setError('Los campos de email no coinciden');
             return;
         }
+
         const total = totalPrice();
         const orden = {
             items: cart.map((producto) => ({
@@ -69,7 +70,7 @@ export const Checkout = () => {
                         removeProduct();
                     })
                     .catch((error) => {
-                        console.log('Error en creacon de orden', error);
+                        console.log('Error en creacion de orden', error);
                         setError('Error en orden');
                     });
             })
